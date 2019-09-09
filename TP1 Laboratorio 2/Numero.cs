@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TP1_Laboratorio_2
 {
-    class Numero
+    public class Numero
     {
         private double numero;
         public Numero()
@@ -22,6 +22,13 @@ namespace TP1_Laboratorio_2
         {
             this.SetNumero = strNumero;
         }
+        public string SetNumero
+        {
+            set
+            {
+                this.numero = ValidarNumero(value);
+            }
+        }
         public double ValidarNumero(string strNumero)
         {
             double localNum;
@@ -34,13 +41,29 @@ namespace TP1_Laboratorio_2
                 return 0;
             }
         }
-        public string SetNumero
+        
+        public static double operator +(Numero n1, Numero n2)
         {
-            set
+            return n1.numero + n2.numero;
+        }
+        public static double operator -(Numero n1, Numero n2)
+        {
+            return n1.numero - n2.numero;
+        }
+        public static double operator *(Numero n1, Numero n2)
+        {
+            return n1.numero * n2.numero;
+        }
+        public static double operator /(Numero n1, Numero n2)
+        {
+            if(n2.numero == 0)
             {
-                this.numero = ValidarNumero(value);
+                return double.MinValue;
+            }
+            else
+            {
+                return n1.numero / n2.numero;
             }
         }
-
     }
 }

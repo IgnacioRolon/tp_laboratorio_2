@@ -8,14 +8,39 @@ namespace TP1_Laboratorio_2
 {
     public static class Calculadora
     {
-        public static double Operar()
+        public static double Operar(Numero num1, Numero num2, string operador)
         {
-            return 0;
+            double resultado = 0;
+            operador = ValidarOperador(operador);
+            switch(operador)
+            {
+                case "+":
+                    resultado = num1 + num2;
+                    break;
+                case "-":
+                    resultado = num1 - num2;
+                    break;
+                case "*":
+                    resultado = num1 * num2;
+                    break;
+                case "/":
+                    resultado = num1 / num2;
+                    break;
+            }
+            return resultado;
         }
 
         private static string ValidarOperador(string operador)
         {
-            return "a";
+            if(operador != "+" && operador != "-" && operador != "*" && operador != "/")
+            {
+                return "+";
+            }
+            else
+            {
+                return operador;
+            }
+            
         }
     }
 }
