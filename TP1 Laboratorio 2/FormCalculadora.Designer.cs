@@ -128,7 +128,6 @@
             this.lblResultado.Size = new System.Drawing.Size(366, 20);
             this.lblResultado.TabIndex = 8;
             this.lblResultado.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            this.lblResultado.Click += new System.EventHandler(this.lblResultado_Click);
             // 
             // FormCalculadora
             // 

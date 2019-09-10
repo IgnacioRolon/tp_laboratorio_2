@@ -12,11 +12,19 @@ namespace TP1_Laboratorio_2
 {
     public partial class FormCalculadora : Form
     {
+        /// <summary>
+        /// Inicializa el formulario principal de la calculadora
+        /// </summary>
         public FormCalculadora()
         {
             InitializeComponent();
         }
 
+        /// <summary>
+        /// Al presionar, ejecuta el metodo Limpiar que vacia el contenido de todos los controles
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void BtnLimpiar_Click(object sender, EventArgs e)
         {
             Limpiar();
@@ -26,21 +34,42 @@ namespace TP1_Laboratorio_2
         /// </summary>
         private void Limpiar()
         {
-            txtNumero1.Text = "";
-            txtNumero2.Text = "";
-            cmbOperador.Text = "+";
-            lblResultado.Text = "";
+            foreach (Control item in Controls)
+            {
+                if (item is TextBox)
+                {
+                    (item as TextBox).Clear();
+                }
+                else if (item is ComboBox)
+                {
+                    (item as ComboBox).SelectedIndex = 0;
+                }else if (item is Label)
+                {
+                    (item as Label).Text = "";
+                }
+            }
         }
 
+        /// <summary>
+        /// Al presionar el boton Cerrar se finaliza la aplicación
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void BtnCerrar_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
 
+        /// <summary>
+        /// Realiza la operación designada entre los dos numeros en los TextBox. 
+        /// Si recibe MinValue significa que la división fue por cero, y cambia ese valor por un mensaje de error.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void BtnOperar_Click(object sender, EventArgs e)
         {
             double opResult = Operar(txtNumero1.Text, txtNumero2.Text, cmbOperador.Text);
-            if(opResult == double.MinValue)
+            if (opResult == double.MinValue)
             {
                 lblResultado.Text = "Error: No se puede dividir por cero.";
             }
@@ -48,8 +77,8 @@ namespace TP1_Laboratorio_2
             {
                 lblResultado.Text = opResult.ToString();
             }
-            
         }
+
         /// <summary>
         /// Realiza la operación indicada entre los dos numeros ingresados.
         /// </summary>
@@ -66,37 +95,28 @@ namespace TP1_Laboratorio_2
             return resultadoFinal;
         }
 
+        /// <summary>
+        /// Llama al metodo DecimalBinario de la clase Numero para transformar el numero en Binario.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void BtnConvertirABinario_Click(object sender, EventArgs e)
         {
             string numeroBinario;
             numeroBinario = Numero.DecimalBinario(lblResultado.Text);
             lblResultado.Text = numeroBinario;
-            if(lblResultado.Text != "Valor inválido.")
-            {
-                if (numeroBinario == double.MinValue.ToString())
-                {
-                    lblResultado.Text = "Valor inválido.";
-                }
-                else
-                {
-                    lblResultado.Text = numeroBinario;
-                }
-            }           
         }
 
+        /// <summary>
+        /// Llama al metodo BinarioDecimal de la clase Numero para transformar el numero en Decimal.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void BtnConvertirADecimal_Click(object sender, EventArgs e)
         {
             string numeroDecimal;
             numeroDecimal = Numero.BinarioDecimal(lblResultado.Text);
-            if(lblResultado.Text != "Valor inválido.")
-            {
-                lblResultado.Text = numeroDecimal;
-            }                    
+            lblResultado.Text = numeroDecimal;
         }
-
-    private void lblResultado_Click(object sender, EventArgs e)
-    {
-
     }
-  }
 }
