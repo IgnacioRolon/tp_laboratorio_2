@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -71,8 +71,7 @@ namespace TP1_Laboratorio_2
             }
         }
         /// <summary>
-        /// Transforma el numero de Decimal a Binario, validando que sea un numero posible de transformar a binario. No
-        /// permite que se transforme un numero binario nuevamente para evitar que se sobrepase el limite facilmente.
+        /// Transforma el numero de Decimal a Binario, validando que sea un numero posible de transformar a binario.
         /// </summary>
         /// <param name="numero">Numero como double</param>
         /// <returns>Devuelve el numero como binario si se pudo completar correctamente, o "Valor invalido." si no se pudo.</returns>
@@ -91,27 +90,24 @@ namespace TP1_Laboratorio_2
             if (double.TryParse(numero, out double doubleNumber))
             {
                 long intNumber = Convert.ToInt64(doubleNumber); //Se transforma a numero entero
-                string checkNumber = BinarioDecimal(numero); //Si se puede formatear BinarioDecimal, no se puede formatear DecimalBinario.
-                if(checkNumber == "Valor invalido.") //Si BinarioDecimal devuelve el minValue, entonces el numero está en decimal y se puede convertir a Binario.
+                if (intNumber >= 0) //Si es negativo, se borra el numero negativo.
                 {
-                    if (intNumber >= 0) //Si es negativo, se borra el numero negativo.
-                    {
-                        numero = intNumber.ToString();
-                    }
-                    else
-                    {
-                        numero = intNumber.ToString().Remove(0, 1);
-                    }
-                    try
-                    {
-                        binaryNumber = Convert.ToString(Convert.ToByte(numero), 2);
-                        return binaryNumber;
-                    }
-                    catch (System.OverflowException) //Si el numero supera el maximo posible en una variable tipo Byte, se lanza esta excepción
-                    {
-                        return "Valor invalido."; //Como siempre, si hay error devolvemos "Valor invalido."
-                    }                   
+                    numero = intNumber.ToString();
                 }
+                else
+                {
+                    numero = intNumber.ToString().Remove(0, 1);
+                }
+                try
+                {
+                    binaryNumber = Convert.ToString(Convert.ToByte(numero), 2);
+                    return binaryNumber;
+                }
+                catch (System.OverflowException) //Si el numero supera el maximo posible en una variable tipo Byte, se lanza esta excepción
+                {
+                    return "Valor invalido."; //Como siempre, si hay error devolvemos "Valor invalido."
+                }                   
+                
             }
             return "Valor invalido."; //Si no es convertible, se devuelve "Valor invalido.".
         }

@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -93,5 +93,10 @@ namespace TP1_Laboratorio_2
                 lblResultado.Text = numeroDecimal;
             }                    
         }
+
+    private void lblResultado_Click(object sender, EventArgs e)
+    {
+
     }
+  }
 }
