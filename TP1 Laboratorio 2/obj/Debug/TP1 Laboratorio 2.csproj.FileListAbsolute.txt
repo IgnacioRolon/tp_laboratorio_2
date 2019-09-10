@@ -18,3 +18,13 @@ C:\Users\alumno\Desktop\tp_laboratorio_2\TP1 Laboratorio 2\obj\Debug\TP1 Laborat
 C:\Users\alumno\Desktop\tp_laboratorio_2\TP1 Laboratorio 2\obj\Debug\TP1 Laboratorio 2.csproj.CoreCompileInputs.cache
 C:\Users\alumno\Desktop\tp_laboratorio_2\TP1 Laboratorio 2\obj\Debug\TP1 Laboratorio 2.exe
 C:\Users\alumno\Desktop\tp_laboratorio_2\TP1 Laboratorio 2\obj\Debug\TP1 Laboratorio 2.pdb
+C:\Users\ignacio.a.rolon\Downloads\PortableGit\tp_laboratorio_2\TP1 Laboratorio 2\bin\Debug\TP1 Laboratorio 2.exe.config
+C:\Users\ignacio.a.rolon\Downloads\PortableGit\tp_laboratorio_2\TP1 Laboratorio 2\bin\Debug\TP1 Laboratorio 2.exe
+C:\Users\ignacio.a.rolon\Downloads\PortableGit\tp_laboratorio_2\TP1 Laboratorio 2\bin\Debug\TP1 Laboratorio 2.pdb
+C:\Users\ignacio.a.rolon\Downloads\PortableGit\tp_laboratorio_2\TP1 Laboratorio 2\obj\Debug\TP1 Laboratorio 2.csprojAssemblyReference.cache
+C:\Users\ignacio.a.rolon\Downloads\PortableGit\tp_laboratorio_2\TP1 Laboratorio 2\obj\Debug\TP1_Laboratorio_2.FormCalculadora.resources
+C:\Users\ignacio.a.rolon\Downloads\PortableGit\tp_laboratorio_2\TP1 Laboratorio 2\obj\Debug\TP1_Laboratorio_2.Properties.Resources.resources
+C:\Users\ignacio.a.rolon\Downloads\PortableGit\tp_laboratorio_2\TP1 Laboratorio 2\obj\Debug\TP1 Laboratorio 2.csproj.GenerateResource.cache
+C:\Users\ignacio.a.rolon\Downloads\PortableGit\tp_laboratorio_2\TP1 Laboratorio 2\obj\Debug\TP1 Laboratorio 2.csproj.CoreCompileInputs.cache
+C:\Users\ignacio.a.rolon\Downloads\PortableGit\tp_laboratorio_2\TP1 Laboratorio 2\obj\Debug\TP1 Laboratorio 2.exe
+C:\Users\ignacio.a.rolon\Downloads\PortableGit\tp_laboratorio_2\TP1 Laboratorio 2\obj\Debug\TP1 Laboratorio 2.pdb
