@@ -87,7 +87,7 @@ namespace Entidades_2019
         /// <returns></returns>
         public static bool operator !=(Producto producto1, Producto producto2)
         {
-            return producto1 == producto2;
+            return !(producto1 == producto2);
         }
 
     }
