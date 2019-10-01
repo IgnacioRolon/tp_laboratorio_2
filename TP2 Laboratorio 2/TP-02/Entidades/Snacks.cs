@@ -4,16 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Entidades_2018
+namespace Entidades_2019
 {
-    public class Snacks
+    public class Snacks:Producto
     {
-        public Snacks(EMarca marca, string patente, ConsoleColor color)
-            : base(patente, marca, color)
+        public Snacks(EMarca marca, string codigo, ConsoleColor color)
+            : base(codigo, marca, color)
         {
+
         }
         /// <summary>
-        /// Los snacks tienen 104 calorías
+        /// Devuelve las calorias del Snack. Los snacks tienen 104 calorías
         /// </summary>
         protected override short CantidadCalorias
         {
@@ -23,17 +24,17 @@ namespace Entidades_2018
             }
         }
 
+        /// <summary>
+        /// Publica todos los datos del Snack.
+        /// </summary>
+        /// <returns>Devuelve los datos como string.</returns>
         public override sealed string Mostrar()
         {
             StringBuilder sb = new StringBuilder();
-
-            sb.AppendLine("SNACKS");
-            sb.AppendLine(base);
-            sb.AppendLine("CALORIAS : {0}", this.CantidadCalorias);
+            sb.AppendFormat("Snacks - {0}, Calorias: {1}", base.Mostrar(), this.CantidadCalorias.ToString());
             sb.AppendLine("");
             sb.AppendLine("---------------------");
-
-            return sb;
+            return sb.ToString();
         }
     }
 }

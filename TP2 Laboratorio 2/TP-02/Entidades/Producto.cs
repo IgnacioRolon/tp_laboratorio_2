@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Entidades_2018
+namespace Entidades_2019
 {
     /// <summary>
     /// La clase Producto no deberá permitir que se instancien elementos de este tipo.
@@ -32,7 +32,7 @@ namespace Entidades_2018
         }
 
         /// <summary>
-        /// ReadOnly: Retornará la cantidad de ruedas del vehículo
+        /// ReadOnly: Retornará la cantidad de Calorias del producto.
         /// </summary>
         protected abstract short CantidadCalorias
         {
@@ -42,7 +42,7 @@ namespace Entidades_2018
         /// <summary>
         /// Publica todos los datos del Producto.
         /// </summary>
-        /// <returns></returns>
+        /// <returns>Devuelve los datos como string.</returns>
         public virtual string Mostrar()
         {
             StringBuilder str = new StringBuilder();
@@ -63,24 +63,24 @@ namespace Entidades_2018
         }
 
         /// <summary>
-        /// Dos productos son iguales si comparten el mismo código de barras
+        /// Dos productos son iguales si comparten el mismo código de barras. 
         /// </summary>
-        /// <param name="v1"></param>
-        /// <param name="v2"></param>
-        /// <returns></returns>
-        public static bool operator ==(Producto v1, Producto v2)
+        /// <param name="producto1">Primer Producto a comparar</param>
+        /// <param name="producto2">Segundo Producto a comparar</param>
+        /// <returns>Devuelve el resultado de la igualdad.</returns>
+        public static bool operator ==(Producto producto1, Producto producto2)
         {
-            return v1.codigoDeBarras == v2.codigoDeBarras;
+            return producto1.codigoDeBarras == producto2.codigoDeBarras;
         }
         /// <summary>
-        /// Dos productos son distintos si su código de barras es distinto
+        /// Dos productos son distintos si su código de barras es distinto.
         /// </summary>
-        /// <param name="v1"></param>
-        /// <param name="v2"></param>
+        /// <param name="producto1">Primer Producto a comparar</param>
+        /// <param name="producto2">Segundo Producto a comparar</param>
         /// <returns></returns>
-        public static bool operator !=(Producto v1, Producto v2)
+        public static bool operator !=(Producto producto1, Producto producto2)
         {
-            return v1 == v2;
+            return producto1 == producto2;
         }
     }
 }

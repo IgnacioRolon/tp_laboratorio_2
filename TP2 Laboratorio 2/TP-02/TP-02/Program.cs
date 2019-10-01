@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using Entidades_2019;
 namespace TP_02_2018
 {
     class Program
@@ -15,8 +15,8 @@ namespace TP_02_2018
             Console.SetWindowSize(Console.LargestWindowWidth / 2, Console.LargestWindowHeight - 2);
 
             // Nombre del alumno
-            Console.
-
+            Console.Title = "Ignacio Rolón - 2°D";
+            
             Changuito changoDeCompras = new Changuito(6);
 
             Dulce c1 = new Dulce(Producto.EMarca.Sancor, "ASD012", ConsoleColor.Black);

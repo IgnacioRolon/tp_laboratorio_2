@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Entidades_2018
+namespace Entidades_2019
 {
     public class Dulce : Producto
     {
@@ -24,11 +24,14 @@ namespace Entidades_2018
                 return 80;
             }
         }
-
+        /// <summary>
+        /// Publica todos los datos del Dulce.
+        /// </summary>
+        /// <returns>Devuelve la información como string.</returns>
         public override sealed string Mostrar()
         {      
             StringBuilder str = new StringBuilder();
-            str.AppendFormat("{0}, Calorias: {1}\n", base.Mostrar(), this.CantidadCalorias);
+            str.AppendFormat("Dulce - {0}, Calorias: {1}\n", base.Mostrar(), this.CantidadCalorias);
             str.AppendLine("---------------------");
             return str.ToString();
         }
