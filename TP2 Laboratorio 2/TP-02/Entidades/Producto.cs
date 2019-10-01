@@ -52,7 +52,7 @@ namespace Entidades_2019
         public virtual string Mostrar()
         {
             StringBuilder str = new StringBuilder();
-            str.AppendFormat("Marca: {0}, Codigo de Barras: {1}, Color del Empaque: {2}", this.marca.ToString(), this.codigoDeBarras.ToString(), this.colorPrimarioEmpaque.ToString());
+            str.AppendFormat("CODIGO DE BARRAS: {1}\nMARCA          : {0}\nCOLOR EMPAQUE  : {2}", this.marca.ToString(), this.codigoDeBarras.ToString(), this.colorPrimarioEmpaque.ToString());
             return str.ToString();
         }
 

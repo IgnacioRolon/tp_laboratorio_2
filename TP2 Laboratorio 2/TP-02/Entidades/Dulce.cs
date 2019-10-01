@@ -35,12 +35,17 @@ namespace Entidades_2019
         /// </summary>
         /// <returns>Devuelve la información como string.</returns>
         public override sealed string Mostrar()
-        {      
-            StringBuilder str = new StringBuilder();
-            str.AppendFormat("Dulce - {0}, Calorias: {1}", base.Mostrar(), this.CantidadCalorias);
-            str.AppendLine("");
-            str.AppendLine("---------------------");
-            return str.ToString();
+        {
+            StringBuilder sb = new StringBuilder();
+            sb.AppendLine("DULCE");
+            sb.AppendLine(base.Mostrar());
+            sb.AppendLine("---------------------");
+            sb.AppendLine("");
+            sb.AppendFormat("CALORIAS : {0}", this.CantidadCalorias.ToString());
+            sb.AppendLine("");
+            sb.AppendLine("---------------------");
+
+            return sb.ToString();
         }
     }
 }

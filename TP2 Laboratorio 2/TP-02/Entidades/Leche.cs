@@ -60,9 +60,14 @@ namespace Entidades_2019
         public override string Mostrar()
         {
             StringBuilder sb = new StringBuilder();
-            sb.AppendFormat("Leche - {0}, Calorias: {1}, Tipo: {2}", base.Mostrar(), this.CantidadCalorias.ToString(), this.tipo.ToString());
+            sb.AppendLine("LECHE");
+            sb.AppendLine(base.Mostrar());
+            sb.AppendLine("---------------------");
+            sb.AppendLine("");
+            sb.AppendFormat("CALORIAS : {0}TIPO : {1}\n", this.CantidadCalorias.ToString(), this.tipo.ToString());
             sb.AppendLine("");
             sb.AppendLine("---------------------");
+
             return sb.ToString();
         }
     }
