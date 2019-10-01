@@ -9,7 +9,7 @@ namespace Entidades_2019
     /// <summary>
     /// No podrá tener clases heredadas.
     /// </summary>
-    public class Changuito
+    public sealed class Changuito
     {
         private List<Producto> productos;
         private int espacioDisponible;
