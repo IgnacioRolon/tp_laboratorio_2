@@ -94,7 +94,9 @@ namespace Entidades_2019
                 foreach (Producto item in chango.productos)
                 {
                     if (item == producto)
+                    {
                         return chango;
+                    }
                 }
                 chango.productos.Add(producto);
             }      
