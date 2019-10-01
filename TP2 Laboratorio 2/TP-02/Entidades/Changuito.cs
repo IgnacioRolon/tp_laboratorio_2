@@ -19,10 +19,19 @@ namespace Entidades_2019
         }
 
         #region "Constructores"
+
+        /// <summary>
+        /// Crea un changuito, inicializando su lista.
+        /// </summary>
         private Changuito()
         {
             this.productos = new List<Producto>();
         }
+
+        /// <summary>
+        /// Crea un changuito, inicializando su lista y determinando el espacio disponible.
+        /// </summary>
+        /// <param name="espacioDisponible">Espacio maximo que va a estar disponible.</param>
         public Changuito(int espacioDisponible)
             :this()
         {
@@ -34,7 +43,7 @@ namespace Entidades_2019
         /// <summary>
         /// Muestra el Changuito y TODOS los Productos dentro del mismo.
         /// </summary>
-        /// <returns></returns>
+        /// <returns>Devuelve el contenido del changuito como string.</returns>
         public override string ToString()
         {
             return Changuito.Mostrar(this, ETipo.Todos);
@@ -58,10 +67,10 @@ namespace Entidades_2019
             sb.AppendLine("");
             foreach (Producto producto in chango.productos)
             {
-                if(tipo == ETipo.Todos)
+                if(tipo == ETipo.Todos) //Si se elige el tipo "Todos", se muestra todo el contenido.
                 {
                     sb.AppendLine(producto.Mostrar());
-                }else if(tipo.ToString() == producto.GetType().Name)
+                }else if(tipo.ToString() == producto.GetType().Name) //Si no, se muestran solo los del tipo especificado.
                 {
                     sb.AppendLine(producto.Mostrar());
                 }

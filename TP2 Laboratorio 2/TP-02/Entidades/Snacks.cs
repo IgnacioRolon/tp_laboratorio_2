@@ -8,6 +8,12 @@ namespace Entidades_2019
 {
     public class Snacks:Producto
     {
+        /// <summary>
+        /// Crea un objeto de tipo Snacks.
+        /// </summary>
+        /// <param name="marca">Marca del Snack</param>
+        /// <param name="codigo">Codigo de Barras</param>
+        /// <param name="color">Color del Paquete</param>
         public Snacks(EMarca marca, string codigo, ConsoleColor color)
             : base(codigo, marca, color)
         {

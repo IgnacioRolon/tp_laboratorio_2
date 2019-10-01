@@ -24,6 +24,12 @@ namespace Entidades_2019
         private string codigoDeBarras;
         private ConsoleColor colorPrimarioEmpaque;
 
+        /// <summary>
+        /// Crea un objeto de tipo Producto.
+        /// </summary>
+        /// <param name="codigo">Codigo de Barras</param>
+        /// <param name="marca">Marca del Producto</param>
+        /// <param name="color">Color del Paquete</param>
         public Producto(string codigo, EMarca marca, ConsoleColor color)
         {
             this.codigoDeBarras = codigo;
@@ -50,15 +56,16 @@ namespace Entidades_2019
             return str.ToString();
         }
 
-        public static explicit operator string(Producto p)
+
+        /// <summary>
+        /// Castea producto a string, devolviendo sus datos como string
+        /// </summary>
+        /// <param name="producto">Producto a castear a string</param>
+        public static explicit operator string(Producto producto)
         {
             StringBuilder sb = new StringBuilder();
-
-            sb.AppendFormat("CODIGO DE BARRAS: {0}\r\n", p.codigoDeBarras);
-            sb.AppendFormat("MARCA          : {0}\r\n", p.marca.ToString());
-            sb.AppendFormat("COLOR EMPAQUE  : {0}\r\n", p.colorPrimarioEmpaque.ToString());
+            sb.AppendLine(producto.Mostrar());
             sb.AppendLine("---------------------");
-
             return sb.ToString();
         }
 
@@ -82,5 +89,6 @@ namespace Entidades_2019
         {
             return producto1 == producto2;
         }
+
     }
 }
