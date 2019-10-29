@@ -1,31 +1,38 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Clases_Abstractas;
+using System.Threading;
 
 namespace Clases_Instanciables
 {
     public sealed class Profesor:Universitario
     {
         private Queue<EClases> clasesDelDia;
-        private Random random;
+        private static Random random;
 
         void _randomClases()
         {
-            this.random = new Random();
             int randomValue;
             for (int i = 0; i < 2; i++)
             {
                 randomValue = random.Next(0, 3);
                 EClases bufferClase = (EClases)randomValue;
                 clasesDelDia.Enqueue(bufferClase);
+                Thread.Sleep(200);
             }
         }
         public Profesor()
+          :base()
         {
+          
+        }
 
+        static Profesor()
+        {
+            Profesor.random = new Random();
         }
 
         public Profesor(int id, string nombre, string apellido, string dni, ENacionalidad nacionalidad)
