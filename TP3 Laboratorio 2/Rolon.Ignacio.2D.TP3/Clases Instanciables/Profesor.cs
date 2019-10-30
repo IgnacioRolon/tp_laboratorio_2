@@ -27,7 +27,7 @@ namespace Clases_Instanciables
         public Profesor()
           :base()
         {
-          
+        
         }
 
         static Profesor()

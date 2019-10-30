@@ -9,15 +9,8 @@ namespace Clases_Abstractas
 {
     /// <summary>
     /// Dudas:
-    /// @ Excepciones
-    /// - Como se hacen y usan las excepciones (en este caso).
-    /// @ Persona
-    /// - Como hago correctamente las validaciones dentro de las propiedades (usando los metodos creados). 
-    /// - ¿Como se yo cual es la nacionalidad en el contexto de la propiedad para usar los metodos ValidarDni?
-    /// @ Profesor
-    /// - ¿Como puedo reutilizar multiples constructores en un solo constructor? Como usar this() y despues base().
-    /// - ¿Como puede ser que Profesor tiene dos constructores iguales con la unica diferencia siendo su visibilidad?
-    /// - Si la corrección que hice esta bien, ¿que deberia hacer el constructor sin parametros?
+    /// @ Archivos
+    /// - ¿No tendria mas sentido que los metodos de los archivos sean estaticos?
     /// </summary>
     public abstract class Persona
     {
