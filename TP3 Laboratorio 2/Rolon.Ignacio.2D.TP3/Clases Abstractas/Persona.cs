@@ -5,12 +5,19 @@ using System.Text;
 using System.Threading.Tasks;
 using Excepciones;
 
-namespace Clases_Abstractas
+namespace EntidadesAbstractas
 {
     /// <summary>
     /// Dudas:
+    /// @ General
+    /// - En el main pasado dice que el proyecto se llama EntidadesAbstractas, pero en el ejercicio pide que se llame
+    /// Clases Abstractas, ¿se modifica el main o el namespace?
     /// @ Archivos
     /// - ¿No tendria mas sentido que los metodos de los archivos sean estaticos?
+    /// - El archivo tiene el mismo encoding pero no deja salto de linea como cualquier archivo XML (contando el entregado
+    /// como ejemplo). ¿Por que?
+    /// @ Tests Unitarios
+    /// - Aclarar como deberian hacerse, ¿a que se refiere con validar valor numerico?
     /// </summary>
     public abstract class Persona
     {
@@ -115,7 +122,7 @@ namespace Clases_Abstractas
         public override string ToString()
         {
             StringBuilder str = new StringBuilder();
-            str.AppendFormat("NOMBRE COMPLETO: {0}, {1}\nNACIONALIDAD: {2}\n", this.nombre, this.apellido, this.nacionalidad.ToString());
+            str.AppendFormat("NOMBRE COMPLETO: {1}, {0}\nNACIONALIDAD: {2}\n", this.nombre, this.apellido, this.nacionalidad.ToString());
             return str.ToString();
         }
 
@@ -150,7 +157,7 @@ namespace Clases_Abstractas
         {
             foreach (char item in dato)
             {
-                if (!Char.IsLetter(item) || Char.IsWhiteSpace(item))
+                if (!Char.IsLetter(item) || Char.IsWhiteSpace(item)) //Verifica que no haya espacios ni caracteres invalidos
                 {
                     return null;
                 }

@@ -1,0 +1,22 @@
+C:\Users\ignacio.a.rolon\Downloads\PortableGit\tp_laboratorio_2\TP3 Laboratorio 2\Rolon.Ignacio.2D.TP3\Tests Unitarios\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\ignacio.a.rolon\Downloads\PortableGit\tp_laboratorio_2\TP3 Laboratorio 2\Rolon.Ignacio.2D.TP3\Tests Unitarios\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\ignacio.a.rolon\Downloads\PortableGit\tp_laboratorio_2\TP3 Laboratorio 2\Rolon.Ignacio.2D.TP3\Tests Unitarios\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\ignacio.a.rolon\Downloads\PortableGit\tp_laboratorio_2\TP3 Laboratorio 2\Rolon.Ignacio.2D.TP3\Tests Unitarios\bin\Debug\Tests Unitarios.dll
+C:\Users\ignacio.a.rolon\Downloads\PortableGit\tp_laboratorio_2\TP3 Laboratorio 2\Rolon.Ignacio.2D.TP3\Tests Unitarios\bin\Debug\Tests Unitarios.pdb
+C:\Users\ignacio.a.rolon\Downloads\PortableGit\tp_laboratorio_2\TP3 Laboratorio 2\Rolon.Ignacio.2D.TP3\Tests Unitarios\bin\Debug\Archivos.dll
+C:\Users\ignacio.a.rolon\Downloads\PortableGit\tp_laboratorio_2\TP3 Laboratorio 2\Rolon.Ignacio.2D.TP3\Tests Unitarios\bin\Debug\Clases Abstractas.dll
+C:\Users\ignacio.a.rolon\Downloads\PortableGit\tp_laboratorio_2\TP3 Laboratorio 2\Rolon.Ignacio.2D.TP3\Tests Unitarios\bin\Debug\Clases Instanciables.dll
+C:\Users\ignacio.a.rolon\Downloads\PortableGit\tp_laboratorio_2\TP3 Laboratorio 2\Rolon.Ignacio.2D.TP3\Tests Unitarios\bin\Debug\Excepciones.dll
+C:\Users\ignacio.a.rolon\Downloads\PortableGit\tp_laboratorio_2\TP3 Laboratorio 2\Rolon.Ignacio.2D.TP3\Tests Unitarios\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\ignacio.a.rolon\Downloads\PortableGit\tp_laboratorio_2\TP3 Laboratorio 2\Rolon.Ignacio.2D.TP3\Tests Unitarios\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\ignacio.a.rolon\Downloads\PortableGit\tp_laboratorio_2\TP3 Laboratorio 2\Rolon.Ignacio.2D.TP3\Tests Unitarios\bin\Debug\Archivos.pdb
+C:\Users\ignacio.a.rolon\Downloads\PortableGit\tp_laboratorio_2\TP3 Laboratorio 2\Rolon.Ignacio.2D.TP3\Tests Unitarios\bin\Debug\Clases Abstractas.pdb
+C:\Users\ignacio.a.rolon\Downloads\PortableGit\tp_laboratorio_2\TP3 Laboratorio 2\Rolon.Ignacio.2D.TP3\Tests Unitarios\bin\Debug\Clases Instanciables.pdb
+C:\Users\ignacio.a.rolon\Downloads\PortableGit\tp_laboratorio_2\TP3 Laboratorio 2\Rolon.Ignacio.2D.TP3\Tests Unitarios\bin\Debug\Excepciones.pdb
+C:\Users\ignacio.a.rolon\Downloads\PortableGit\tp_laboratorio_2\TP3 Laboratorio 2\Rolon.Ignacio.2D.TP3\Tests Unitarios\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\ignacio.a.rolon\Downloads\PortableGit\tp_laboratorio_2\TP3 Laboratorio 2\Rolon.Ignacio.2D.TP3\Tests Unitarios\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\ignacio.a.rolon\Downloads\PortableGit\tp_laboratorio_2\TP3 Laboratorio 2\Rolon.Ignacio.2D.TP3\Tests Unitarios\obj\Debug\Tests Unitarios.csprojAssemblyReference.cache
+C:\Users\ignacio.a.rolon\Downloads\PortableGit\tp_laboratorio_2\TP3 Laboratorio 2\Rolon.Ignacio.2D.TP3\Tests Unitarios\obj\Debug\Tests Unitarios.csproj.CoreCompileInputs.cache
+C:\Users\ignacio.a.rolon\Downloads\PortableGit\tp_laboratorio_2\TP3 Laboratorio 2\Rolon.Ignacio.2D.TP3\Tests Unitarios\obj\Debug\Tests Unitarios.csproj.CopyComplete
+C:\Users\ignacio.a.rolon\Downloads\PortableGit\tp_laboratorio_2\TP3 Laboratorio 2\Rolon.Ignacio.2D.TP3\Tests Unitarios\obj\Debug\Tests Unitarios.dll
+C:\Users\ignacio.a.rolon\Downloads\PortableGit\tp_laboratorio_2\TP3 Laboratorio 2\Rolon.Ignacio.2D.TP3\Tests Unitarios\obj\Debug\Tests Unitarios.pdb

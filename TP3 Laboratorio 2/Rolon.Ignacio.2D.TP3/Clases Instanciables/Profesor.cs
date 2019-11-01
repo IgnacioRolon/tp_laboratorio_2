@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Clases_Abstractas;
+using EntidadesAbstractas;
 using System.Threading;
 
 namespace Clases_Instanciables
 {
     public sealed class Profesor:Universitario
     {
-        private Queue<EClases> clasesDelDia;
+        private Queue<Universidad.EClases> clasesDelDia;
         private static Random random;
 
         void _randomClases()
@@ -19,7 +19,7 @@ namespace Clases_Instanciables
             for (int i = 0; i < 2; i++)
             {
                 randomValue = random.Next(0, 3);
-                EClases bufferClase = (EClases)randomValue;
+                Universidad.EClases bufferClase = (Universidad.EClases)randomValue;
                 clasesDelDia.Enqueue(bufferClase);
                 Thread.Sleep(200);
             }
@@ -38,13 +38,13 @@ namespace Clases_Instanciables
         public Profesor(int id, string nombre, string apellido, string dni, ENacionalidad nacionalidad)
             : base(id, nombre, apellido, dni, nacionalidad)
         {
-            clasesDelDia = new Queue<EClases>();
+            clasesDelDia = new Queue<Universidad.EClases>();
             _randomClases();
         }
             
-        public static bool operator == (Profesor i, EClases clase)
+        public static bool operator == (Profesor i, Universidad.EClases clase)
         {
-            foreach(EClases claseActual in i.clasesDelDia)
+            foreach(Universidad.EClases claseActual in i.clasesDelDia)
             {
                 if(claseActual == clase)
                 {
@@ -54,7 +54,7 @@ namespace Clases_Instanciables
             return false;
         }
 
-        public static bool operator != (Profesor i, EClases clase)
+        public static bool operator != (Profesor i, Universidad.EClases clase)
         {
             return !(i == clase);
         }
@@ -63,7 +63,7 @@ namespace Clases_Instanciables
         {
             StringBuilder str = new StringBuilder();
             str.AppendLine("CLASES DEL DÍA:");
-            foreach (EClases clase in this.clasesDelDia)
+            foreach (Universidad.EClases clase in this.clasesDelDia)
             {
                 str.AppendLine(clase.ToString());
             }
@@ -73,7 +73,7 @@ namespace Clases_Instanciables
         protected override string MostrarDatos()
         {
             StringBuilder str = new StringBuilder();
-            str.AppendFormat("{0}\n{1}\n", base.MostrarDatos(), this.ParticiparEnClase());
+            str.AppendFormat("{0}{1}\n", base.MostrarDatos(), this.ParticiparEnClase());
             return str.ToString();
         }
 

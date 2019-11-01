@@ -1,0 +1,16 @@
+C:\Users\ignacio.a.rolon\Downloads\PortableGit\tp_laboratorio_2\TP3 Laboratorio 2\Rolon.Ignacio.2D.TP3\Consola\bin\Debug\Consola.exe.config
+C:\Users\ignacio.a.rolon\Downloads\PortableGit\tp_laboratorio_2\TP3 Laboratorio 2\Rolon.Ignacio.2D.TP3\Consola\bin\Debug\Consola.exe
+C:\Users\ignacio.a.rolon\Downloads\PortableGit\tp_laboratorio_2\TP3 Laboratorio 2\Rolon.Ignacio.2D.TP3\Consola\bin\Debug\Consola.pdb
+C:\Users\ignacio.a.rolon\Downloads\PortableGit\tp_laboratorio_2\TP3 Laboratorio 2\Rolon.Ignacio.2D.TP3\Consola\bin\Debug\Clases Abstractas.dll
+C:\Users\ignacio.a.rolon\Downloads\PortableGit\tp_laboratorio_2\TP3 Laboratorio 2\Rolon.Ignacio.2D.TP3\Consola\bin\Debug\Clases Instanciables.dll
+C:\Users\ignacio.a.rolon\Downloads\PortableGit\tp_laboratorio_2\TP3 Laboratorio 2\Rolon.Ignacio.2D.TP3\Consola\bin\Debug\Excepciones.dll
+C:\Users\ignacio.a.rolon\Downloads\PortableGit\tp_laboratorio_2\TP3 Laboratorio 2\Rolon.Ignacio.2D.TP3\Consola\bin\Debug\Archivos.dll
+C:\Users\ignacio.a.rolon\Downloads\PortableGit\tp_laboratorio_2\TP3 Laboratorio 2\Rolon.Ignacio.2D.TP3\Consola\bin\Debug\Clases Abstractas.pdb
+C:\Users\ignacio.a.rolon\Downloads\PortableGit\tp_laboratorio_2\TP3 Laboratorio 2\Rolon.Ignacio.2D.TP3\Consola\bin\Debug\Clases Instanciables.pdb
+C:\Users\ignacio.a.rolon\Downloads\PortableGit\tp_laboratorio_2\TP3 Laboratorio 2\Rolon.Ignacio.2D.TP3\Consola\bin\Debug\Excepciones.pdb
+C:\Users\ignacio.a.rolon\Downloads\PortableGit\tp_laboratorio_2\TP3 Laboratorio 2\Rolon.Ignacio.2D.TP3\Consola\bin\Debug\Archivos.pdb
+C:\Users\ignacio.a.rolon\Downloads\PortableGit\tp_laboratorio_2\TP3 Laboratorio 2\Rolon.Ignacio.2D.TP3\Consola\obj\Debug\Consola.csprojAssemblyReference.cache
+C:\Users\ignacio.a.rolon\Downloads\PortableGit\tp_laboratorio_2\TP3 Laboratorio 2\Rolon.Ignacio.2D.TP3\Consola\obj\Debug\Consola.csproj.CoreCompileInputs.cache
+C:\Users\ignacio.a.rolon\Downloads\PortableGit\tp_laboratorio_2\TP3 Laboratorio 2\Rolon.Ignacio.2D.TP3\Consola\obj\Debug\Consola.csproj.CopyComplete
+C:\Users\ignacio.a.rolon\Downloads\PortableGit\tp_laboratorio_2\TP3 Laboratorio 2\Rolon.Ignacio.2D.TP3\Consola\obj\Debug\Consola.exe
+C:\Users\ignacio.a.rolon\Downloads\PortableGit\tp_laboratorio_2\TP3 Laboratorio 2\Rolon.Ignacio.2D.TP3\Consola\obj\Debug\Consola.pdb

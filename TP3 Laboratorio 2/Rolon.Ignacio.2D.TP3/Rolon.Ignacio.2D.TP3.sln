@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clases Instanciables", "Cla
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Archivos", "Archivos\Archivos.csproj", "{37AADA54-F2AD-455F-B7A2-4748A3FBE273}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Consola", "Consola\Consola.csproj", "{D4A42BC2-4ACA-4904-B4AF-817D1666FF6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests Unitarios", "Tests Unitarios\Tests Unitarios.csproj", "{996BCA16-086E-4394-BF76-BF990D3F7B37}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{37AADA54-F2AD-455F-B7A2-4748A3FBE273}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{37AADA54-F2AD-455F-B7A2-4748A3FBE273}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{37AADA54-F2AD-455F-B7A2-4748A3FBE273}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4A42BC2-4ACA-4904-B4AF-817D1666FF6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4A42BC2-4ACA-4904-B4AF-817D1666FF6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4A42BC2-4ACA-4904-B4AF-817D1666FF6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4A42BC2-4ACA-4904-B4AF-817D1666FF6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{996BCA16-086E-4394-BF76-BF990D3F7B37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{996BCA16-086E-4394-BF76-BF990D3F7B37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{996BCA16-086E-4394-BF76-BF990D3F7B37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{996BCA16-086E-4394-BF76-BF990D3F7B37}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

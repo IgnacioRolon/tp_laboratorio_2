@@ -1,0 +1,9 @@
+C:\Users\ignacio.a.rolon\Downloads\PortableGit\tp_laboratorio_2\TP3 Laboratorio 2\Rolon.Ignacio.2D.TP3\Clases Abstractas\bin\Debug\Clases Abstractas.dll
+C:\Users\ignacio.a.rolon\Downloads\PortableGit\tp_laboratorio_2\TP3 Laboratorio 2\Rolon.Ignacio.2D.TP3\Clases Abstractas\bin\Debug\Clases Abstractas.pdb
+C:\Users\ignacio.a.rolon\Downloads\PortableGit\tp_laboratorio_2\TP3 Laboratorio 2\Rolon.Ignacio.2D.TP3\Clases Abstractas\bin\Debug\Excepciones.dll
+C:\Users\ignacio.a.rolon\Downloads\PortableGit\tp_laboratorio_2\TP3 Laboratorio 2\Rolon.Ignacio.2D.TP3\Clases Abstractas\bin\Debug\Excepciones.pdb
+C:\Users\ignacio.a.rolon\Downloads\PortableGit\tp_laboratorio_2\TP3 Laboratorio 2\Rolon.Ignacio.2D.TP3\Clases Abstractas\obj\Debug\Clases Abstractas.csprojAssemblyReference.cache
+C:\Users\ignacio.a.rolon\Downloads\PortableGit\tp_laboratorio_2\TP3 Laboratorio 2\Rolon.Ignacio.2D.TP3\Clases Abstractas\obj\Debug\Clases Abstractas.csproj.CoreCompileInputs.cache
+C:\Users\ignacio.a.rolon\Downloads\PortableGit\tp_laboratorio_2\TP3 Laboratorio 2\Rolon.Ignacio.2D.TP3\Clases Abstractas\obj\Debug\Clases Abstractas.csproj.CopyComplete
+C:\Users\ignacio.a.rolon\Downloads\PortableGit\tp_laboratorio_2\TP3 Laboratorio 2\Rolon.Ignacio.2D.TP3\Clases Abstractas\obj\Debug\Clases Abstractas.dll
+C:\Users\ignacio.a.rolon\Downloads\PortableGit\tp_laboratorio_2\TP3 Laboratorio 2\Rolon.Ignacio.2D.TP3\Clases Abstractas\obj\Debug\Clases Abstractas.pdb

@@ -10,7 +10,7 @@ namespace Clases_Instanciables
     public class Jornada
     {
         private List<Alumno> alumnos;
-        private EClases clase;
+        private Universidad.EClases clase;
         private Profesor instructor;
 
         public List<Alumno> Alumnos
@@ -25,7 +25,7 @@ namespace Clases_Instanciables
             }
         }
 
-        public EClases Clase
+        public Universidad.EClases Clase
         {
             get
             {
@@ -54,7 +54,7 @@ namespace Clases_Instanciables
             this.alumnos = new List<Alumno>();
         }
 
-        public Jornada(EClases clase, Profesor instructor)
+        public Jornada(Universidad.EClases clase, Profesor instructor)
             : this()
         {
             this.clase = clase;
@@ -103,7 +103,7 @@ namespace Clases_Instanciables
         public override string ToString()
         {
             StringBuilder str = new StringBuilder();
-            str.AppendFormat("CLASE DE {0} POR: {1}\n", this.clase.ToString(), this.instructor.ToString());
+            str.AppendFormat("CLASE DE {0} POR {1}", this.clase.ToString(), this.instructor.ToString());
             str.AppendLine("ALUMNOS:");
             foreach(Alumno alumno in this.alumnos)
             {

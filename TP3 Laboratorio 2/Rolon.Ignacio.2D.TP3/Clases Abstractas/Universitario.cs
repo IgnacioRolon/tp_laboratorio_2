@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Clases_Abstractas
+namespace EntidadesAbstractas
 {
     public abstract class Universitario : Persona
     {
@@ -36,10 +36,13 @@ namespace Clases_Abstractas
 
         public static bool operator ==(Universitario pg1, Universitario pg2)
         {
-            if(pg1.legajo == pg2.legajo || pg1.Dni == pg2.Dni)
+            if(pg1.GetType() == pg2.GetType())
             {
-                return true;
-            }
+                if (pg1.legajo == pg2.legajo || pg1.Dni == pg2.Dni)
+                {
+                    return true;
+                }
+            }            
             return false;
         }
 
