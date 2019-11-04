@@ -8,11 +8,17 @@ using System.Threading;
 
 namespace Clases_Instanciables
 {
+    /// <summary>
+    /// Clase para definir a los profesores universitarios, con la clase que dan y sus datos.
+    /// </summary>
     public sealed class Profesor:Universitario
     {
         private Queue<Universidad.EClases> clasesDelDia;
         private static Random random;
 
+        /// <summary>
+        /// Genera una clase random de cualquiera de los 4 tipos de clase posibles.
+        /// </summary>
         void _randomClases()
         {
             int randomValue;
@@ -30,11 +36,22 @@ namespace Clases_Instanciables
         
         }
 
+        /// <summary>
+        /// Constructor estatico que inicializa el Random.
+        /// </summary>
         static Profesor()
         {
             Profesor.random = new Random();
         }
 
+        /// <summary>
+        /// Crea un profesor con todos sus datos.
+        /// </summary>
+        /// <param name="id">Legajo del Profesor</param>
+        /// <param name="nombre">Nombre del Profesor</param>
+        /// <param name="apellido">Apellido del Profesor</param>
+        /// <param name="dni">DNI del Profesor como String</param>
+        /// <param name="nacionalidad">Nacionalidad (Argentino o Extranjero) del Profesor.</param>
         public Profesor(int id, string nombre, string apellido, string dni, ENacionalidad nacionalidad)
             : base(id, nombre, apellido, dni, nacionalidad)
         {
@@ -42,6 +59,12 @@ namespace Clases_Instanciables
             _randomClases();
         }
             
+        /// <summary>
+        /// Un profesor es igual a una clase si la está dando.
+        /// </summary>
+        /// <param name="i">Profesor a comparar</param>
+        /// <param name="clase">Clase a encontrar</param>
+        /// <returns>Devuelve true si está dando la clase, o false si no.</returns>
         public static bool operator == (Profesor i, Universidad.EClases clase)
         {
             foreach(Universidad.EClases claseActual in i.clasesDelDia)
@@ -54,11 +77,21 @@ namespace Clases_Instanciables
             return false;
         }
 
+        /// <summary>
+        /// Un profesor es igual a una clase si la está dando.
+        /// </summary>
+        /// <param name="i">Profesor a comparar</param>
+        /// <param name="clase">Clase a encontrar</param>
+        /// <returns>Devuelve false si está dando la clase, o true si no.</returns>
         public static bool operator != (Profesor i, Universidad.EClases clase)
         {
             return !(i == clase);
         }
        
+        /// <summary>
+        /// Muestra en que clases participa el Profesor.
+        /// </summary>
+        /// <returns>Clases como String.</returns>
         protected override string ParticiparEnClase()
         {
             StringBuilder str = new StringBuilder();
@@ -70,6 +103,10 @@ namespace Clases_Instanciables
             return str.ToString();
         }
 
+        /// <summary>
+        /// Devuelve los datos del profesor, incluyendo las clases en las que participa.
+        /// </summary>
+        /// <returns>Datos del Profesor.</returns>
         protected override string MostrarDatos()
         {
             StringBuilder str = new StringBuilder();
@@ -77,6 +114,10 @@ namespace Clases_Instanciables
             return str.ToString();
         }
 
+        /// <summary>
+        /// Muestra los datos del profesor.
+        /// </summary>
+        /// <returns>Datos del Profesor.</returns>
         public override string ToString()
         {            
             return this.MostrarDatos();
