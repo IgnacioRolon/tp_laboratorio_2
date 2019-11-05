@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -80,7 +80,7 @@ namespace Clases_Instanciables
         public static bool Guardar(Jornada jornada)
         {
             Texto texto = new Texto();
-            return texto.Guardar(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments).ToString() + @"\Jornada.txt", jornada.ToString());
+            return texto.Guardar("Jornada.txt", jornada.ToString());
         }
 
         /// <summary>
@@ -90,7 +90,7 @@ namespace Clases_Instanciables
         public static string Leer()
         {
             Texto texto = new Texto();
-            texto.Leer(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments).ToString() + @"\Jornada.txt", out string jornadaActual);
+            texto.Leer("Jornada.txt", out string jornadaActual);
             return jornadaActual;
         }
 

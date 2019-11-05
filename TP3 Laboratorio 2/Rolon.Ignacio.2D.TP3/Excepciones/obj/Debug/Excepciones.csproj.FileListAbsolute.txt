@@ -4,3 +4,9 @@ C:\Users\ignacio.a.rolon\Downloads\PortableGit\tp_laboratorio_2\TP3 Laboratorio 
 C:\Users\ignacio.a.rolon\Downloads\PortableGit\tp_laboratorio_2\TP3 Laboratorio 2\Rolon.Ignacio.2D.TP3\Excepciones\obj\Debug\Excepciones.csproj.CoreCompileInputs.cache
 C:\Users\ignacio.a.rolon\Downloads\PortableGit\tp_laboratorio_2\TP3 Laboratorio 2\Rolon.Ignacio.2D.TP3\Excepciones\obj\Debug\Excepciones.dll
 C:\Users\ignacio.a.rolon\Downloads\PortableGit\tp_laboratorio_2\TP3 Laboratorio 2\Rolon.Ignacio.2D.TP3\Excepciones\obj\Debug\Excepciones.pdb
+C:\Users\alumno\Desktop\tp_laboratorio_2\TP3 Laboratorio 2\Rolon.Ignacio.2D.TP3\Excepciones\bin\Debug\Excepciones.dll
+C:\Users\alumno\Desktop\tp_laboratorio_2\TP3 Laboratorio 2\Rolon.Ignacio.2D.TP3\Excepciones\bin\Debug\Excepciones.pdb
+C:\Users\alumno\Desktop\tp_laboratorio_2\TP3 Laboratorio 2\Rolon.Ignacio.2D.TP3\Excepciones\obj\Debug\Excepciones.csprojAssemblyReference.cache
+C:\Users\alumno\Desktop\tp_laboratorio_2\TP3 Laboratorio 2\Rolon.Ignacio.2D.TP3\Excepciones\obj\Debug\Excepciones.csproj.CoreCompileInputs.cache
+C:\Users\alumno\Desktop\tp_laboratorio_2\TP3 Laboratorio 2\Rolon.Ignacio.2D.TP3\Excepciones\obj\Debug\Excepciones.dll
+C:\Users\alumno\Desktop\tp_laboratorio_2\TP3 Laboratorio 2\Rolon.Ignacio.2D.TP3\Excepciones\obj\Debug\Excepciones.pdb

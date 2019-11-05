@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -39,7 +39,11 @@ namespace EntidadesAbstractas
         /// <returns>Devuelve true si son iguales, o false si no.</returns>
         public override bool Equals(object obj)
         {
-            return this == obj;
+            if(this.GetType() == obj.GetType())
+            {
+              return this == obj;
+            }
+            return false;
         }
 
         /// <summary>

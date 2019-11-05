@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,18 +8,7 @@ using Excepciones;
 namespace EntidadesAbstractas
 {
     /// <summary>
-    /// Dudas:
-    /// @ General
-    /// - En el main pasado dice que el proyecto se llama EntidadesAbstractas, pero en el ejercicio pide que se llame
-    /// Clases Abstractas, ¿se modifica el main o el namespace?
-    /// @ Archivos
-    /// - ¿No tendria mas sentido que los metodos de los archivos sean estaticos?
-    /// - El archivo tiene el mismo encoding pero no deja salto de linea como cualquier archivo XML (contando el entregado
-    /// como ejemplo). ¿Por que?
-    /// @ Tests Unitarios
-    /// - Aclarar como deberian hacerse, ¿a que se refiere con validar valor numerico?
-    /// @ Universitario
-    /// - ¿Como deberia funcionar el Equals()?
+    /// Clase Abstracta para definir todas las clases del tipo Persona
     /// </summary>
     public abstract class Persona
     { 

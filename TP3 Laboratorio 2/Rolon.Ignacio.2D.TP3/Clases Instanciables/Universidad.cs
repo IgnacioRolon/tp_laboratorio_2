@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -272,7 +272,7 @@ namespace Clases_Instanciables
         public static bool Guardar(Universidad uni)
         {
             Xml<Universidad> xml = new Xml<Universidad>();
-            return xml.Guardar(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments).ToString() + @"\Universidad.xml", uni);
+            return xml.Guardar("Universidad.xml", uni);
         }
 
         /// <summary>
@@ -284,7 +284,7 @@ namespace Clases_Instanciables
         {
             Xml<Universidad> xml = new Xml<Universidad>();  
             Universidad universidad = new Universidad();
-            xml.Leer(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments).ToString() + @"\Universidad.xml", out universidad);
+            xml.Leer("Universidad.xml", out universidad);
             return universidad;
         }
     } 
