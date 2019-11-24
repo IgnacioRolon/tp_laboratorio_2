@@ -67,23 +67,23 @@ namespace Entidades
 
         public void MockCicloDeVida()
         {
-            if (this.estado == EEstado.Entregado) //No realizar si ya fue entregado.
+            while(this.estado != EEstado.Entregado)
             {
-                return;
-            } 
+                Thread.Sleep(4000);
+                switch(this.estado)
+                {
+                    case EEstado.Ingresado:
+                        this.estado = EEstado.EnViaje;
+                        break;
+                    case EEstado.EnViaje:
+                        this.estado = EEstado.Entregado;
+                        break;
+                }
 
-            Thread.Sleep(4000);
-            switch(this.estado)
-            {
-                case EEstado.Ingresado:
-                    this.estado = EEstado.EnViaje;
-                    break;
-                case EEstado.EnViaje:
-                    this.estado = EEstado.Entregado;
-                    break;
+                this.InformaEstado.Invoke(this.estado, EventArgs.Empty);
             }
 
-            this.InformaEstado.Invoke(this.estado, EventArgs.Empty);
+            PaqueteDAO.Insertar(this);
         }
 
         public string MostrarDatos(Paquete elemento) //Revisar como hacerlo con IMostrar<Paquete>
@@ -96,8 +96,7 @@ namespace Entidades
             if(p1.trackingID == p2.trackingID)
             {
                 return true;
-            }
-            else
+            }else
             {
                 return false;
             }

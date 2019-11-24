@@ -45,6 +45,7 @@
     <Compile Include="GuardaString.cs" />
     <Compile Include="IMostrar.cs" />
     <Compile Include="Paquete.cs" />
+    <Compile Include="PaqueteDAO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TrackingIdRepetidoException.cs" />
   </ItemGroup>
