@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -86,9 +86,10 @@ namespace Entidades
             PaqueteDAO.Insertar(this);
         }
 
-        public string MostrarDatos(Paquete elemento) //Revisar como hacerlo con IMostrar<Paquete>
+        public string MostrarDatos(IMostrar<Paquete> elemento) //Revisar como hacerlo con IMostrar<Paquete>
         {
-            return string.Format("{0} para {1}", elemento.trackingID, elemento.direccionEntrega);
+            Paquete p = (Paquete)elemento;
+            return string.Format("{0} para {1}", p.trackingID, p.direccionEntrega);
         }
 
         public static bool operator ==(Paquete p1, Paquete p2)
@@ -111,5 +112,5 @@ namespace Entidades
         {
             return MostrarDatos(this);
         }
-    }
+  }
 }

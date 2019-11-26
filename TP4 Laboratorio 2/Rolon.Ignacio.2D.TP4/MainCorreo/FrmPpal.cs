@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -18,6 +18,9 @@ namespace MainCorreo
         {
             InitializeComponent();
             correo = new Correo();
+            correo.Paquetes.Add(new Paquete("Dire", "123"));
+            MessageBox.Show(correo.MostrarDatos((IMostrar<List<Paquete>>)correo));
+      
         }
 
         private void groupBox2_Enter(object sender, EventArgs e)
@@ -57,14 +60,9 @@ namespace MainCorreo
             }
         }
 
-        private void MostrarInformacion<T>(T elemento) where T : class
+        private void MostrarInformacion<T>(IMostrar<T> elemento) where T : class
         {
-            if(elemento != null)
-            {
-                this.rtbMostrar.Text = elemento.ToString();
-                String s = elemento.ToString();
-                s.Guardar("salida.txt");
-            }
+      elemento.MostrarDatos(elemento);
         }
 
         private void ActualizarEstados()
@@ -79,7 +77,7 @@ namespace MainCorreo
 
         private void btnMostrarTodos_Click(object sender, EventArgs e)
         {
-            this.MostrarInformacion<List<Paquete>>((List<Paquete>)correo);
+            this.MostrarInformacion<List<Paquete>>((IMostrar<List<Paquete>>)correo);
         }
     }
 }

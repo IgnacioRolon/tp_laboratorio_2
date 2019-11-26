@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -51,7 +51,18 @@ namespace Entidades
             }
         }
 
-        public static Correo operator +(Correo c, Paquete p)
+    public string MostrarDatos(IMostrar<List<Paquete>> elemento) //Arreglar
+    {
+      Correo correoLocal = (Correo)elemento;
+      string datosCompletos = "";
+      foreach(Paquete p in correoLocal.Paquetes)
+      {
+        datosCompletos += string.Format("{0} para {1} ({2})\n", p.TrackingID, p.DireccionEntrega, p.Estado.ToString());
+      }
+      return datosCompletos;
+    }
+
+    public static Correo operator +(Correo c, Paquete p)
         {
             foreach(Paquete paquete in c.paquetes)
             {

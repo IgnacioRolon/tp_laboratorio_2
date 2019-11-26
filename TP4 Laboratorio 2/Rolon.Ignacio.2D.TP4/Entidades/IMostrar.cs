@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,6 +8,6 @@ namespace Entidades
 {
     public interface IMostrar<T> where T : class
     {
-        string MostrarDatos(T elemento); //Cambiar o Revisar con el profe como hacer con IMostrar<T>
+        string MostrarDatos(IMostrar<T> elemento); //Cambiar o Revisar con el profe como hacer con IMostrar<T>
     }
 }
