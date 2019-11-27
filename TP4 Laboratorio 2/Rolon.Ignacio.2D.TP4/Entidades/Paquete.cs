@@ -89,7 +89,7 @@ namespace Entidades
         public string MostrarDatos(IMostrar<Paquete> elemento) //Revisar como hacerlo con IMostrar<Paquete>
         {
             Paquete p = (Paquete)elemento;
-            return string.Format("{0} para {1}", p.trackingID, p.direccionEntrega);
+            return string.Format("{0} para {1}\n", p.trackingID, p.direccionEntrega);
         }
 
         public static bool operator ==(Paquete p1, Paquete p2)
@@ -112,5 +112,5 @@ namespace Entidades
         {
             return MostrarDatos(this);
         }
-  }
+    }
 }

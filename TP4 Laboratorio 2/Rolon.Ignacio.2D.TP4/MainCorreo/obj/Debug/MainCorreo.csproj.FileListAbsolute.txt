@@ -21,3 +21,6 @@ C:\Users\alumno\Desktop\tp_laboratorio_2\TP4 Laboratorio 2\Rolon.Ignacio.2D.TP4\
 C:\Users\alumno\Desktop\tp_laboratorio_2\TP4 Laboratorio 2\Rolon.Ignacio.2D.TP4\MainCorreo\bin\Debug\Entidades.dll
 C:\Users\alumno\Desktop\tp_laboratorio_2\TP4 Laboratorio 2\Rolon.Ignacio.2D.TP4\MainCorreo\bin\Debug\Entidades.pdb
 C:\Users\alumno\Desktop\tp_laboratorio_2\TP4 Laboratorio 2\Rolon.Ignacio.2D.TP4\MainCorreo\obj\Debug\MainCorreo.csproj.CopyComplete
+C:\Users\ignir\Desktop\Escritorio\Ejercicios Labo\tp_laboratorio_2\TP4 Laboratorio 2\Rolon.Ignacio.2D.TP4\MainCorreo\bin\Debug\Entidades.dll
+C:\Users\ignir\Desktop\Escritorio\Ejercicios Labo\tp_laboratorio_2\TP4 Laboratorio 2\Rolon.Ignacio.2D.TP4\MainCorreo\bin\Debug\Entidades.pdb
+C:\Users\ignir\Desktop\Escritorio\Ejercicios Labo\tp_laboratorio_2\TP4 Laboratorio 2\Rolon.Ignacio.2D.TP4\MainCorreo\obj\Debug\MainCorreo.csproj.CopyComplete

@@ -4,3 +4,9 @@ C:\Users\alumno\Desktop\tp_laboratorio_2\TP4 Laboratorio 2\Rolon.Ignacio.2D.TP4\
 C:\Users\alumno\Desktop\tp_laboratorio_2\TP4 Laboratorio 2\Rolon.Ignacio.2D.TP4\Entidades\bin\Debug\Entidades.pdb
 C:\Users\alumno\Desktop\tp_laboratorio_2\TP4 Laboratorio 2\Rolon.Ignacio.2D.TP4\Entidades\obj\Debug\Entidades.dll
 C:\Users\alumno\Desktop\tp_laboratorio_2\TP4 Laboratorio 2\Rolon.Ignacio.2D.TP4\Entidades\obj\Debug\Entidades.pdb
+C:\Users\ignir\Desktop\Escritorio\Ejercicios Labo\tp_laboratorio_2\TP4 Laboratorio 2\Rolon.Ignacio.2D.TP4\Entidades\bin\Debug\Entidades.dll
+C:\Users\ignir\Desktop\Escritorio\Ejercicios Labo\tp_laboratorio_2\TP4 Laboratorio 2\Rolon.Ignacio.2D.TP4\Entidades\bin\Debug\Entidades.pdb
+C:\Users\ignir\Desktop\Escritorio\Ejercicios Labo\tp_laboratorio_2\TP4 Laboratorio 2\Rolon.Ignacio.2D.TP4\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\ignir\Desktop\Escritorio\Ejercicios Labo\tp_laboratorio_2\TP4 Laboratorio 2\Rolon.Ignacio.2D.TP4\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\ignir\Desktop\Escritorio\Ejercicios Labo\tp_laboratorio_2\TP4 Laboratorio 2\Rolon.Ignacio.2D.TP4\Entidades\obj\Debug\Entidades.dll
+C:\Users\ignir\Desktop\Escritorio\Ejercicios Labo\tp_laboratorio_2\TP4 Laboratorio 2\Rolon.Ignacio.2D.TP4\Entidades\obj\Debug\Entidades.pdb

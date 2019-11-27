@@ -7,10 +7,15 @@ using System.Data.SqlClient;
 
 namespace Entidades
 {
+    /// <summary>
+    /// Clase para Guardar paquetes en una base de datos.
+    /// </summary>
+
     public static class PaqueteDAO
     {
         private static SqlCommand comando;
         private static SqlConnection conexion;
+
 
         static PaqueteDAO()
         {
@@ -20,6 +25,11 @@ namespace Entidades
             comando.Connection = conexion;
         }
 
+        /// <summary>
+        /// Inserta un paquete en la base de datos.
+        /// </summary>
+        /// <param name="p">Paquete a Guardar</param>
+        /// <returns>Devuelve true si salio todo bien, lanza una excepcion si falló algo.</returns>
         public static bool Insertar(Paquete p)
         {
             StringBuilder command = new StringBuilder();

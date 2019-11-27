@@ -30,16 +30,6 @@ namespace Entidades
             this.paquetes = new List<Paquete>();
         }
 
-        public string MostrarDatos(List<Paquete> elemento)
-        {
-            StringBuilder str = new StringBuilder();
-            foreach(Paquete paquete in elemento)
-            {
-                str.AppendLine(string.Format("{0} para {1} ({2})", paquete.TrackingID, paquete.DireccionEntrega, paquete.Estado.ToString()));
-            }
-            return str.ToString();
-        }
-
         public void FinEntregas()
         {
             foreach(Thread ciclo in this.mockPaquetes)
@@ -51,18 +41,18 @@ namespace Entidades
             }
         }
 
-    public string MostrarDatos(IMostrar<List<Paquete>> elemento) //Arreglar
-    {
-      Correo correoLocal = (Correo)elemento;
-      string datosCompletos = "";
-      foreach(Paquete p in correoLocal.Paquetes)
-      {
-        datosCompletos += string.Format("{0} para {1} ({2})\n", p.TrackingID, p.DireccionEntrega, p.Estado.ToString());
-      }
-      return datosCompletos;
-    }
+        public string MostrarDatos(IMostrar<List<Paquete>> elemento) //Arreglar
+        {
+          Correo correoLocal = (Correo)elemento;
+          string datosCompletos = "";
+          foreach(Paquete p in correoLocal.Paquetes)
+          {
+            datosCompletos += string.Format("{0} para {1} ({2}) \n", p.TrackingID, p.DireccionEntrega, p.Estado.ToString());
+          }
+          return datosCompletos;
+        }
 
-    public static Correo operator +(Correo c, Paquete p)
+        public static Correo operator +(Correo c, Paquete p)
         {
             foreach(Paquete paquete in c.paquetes)
             {
