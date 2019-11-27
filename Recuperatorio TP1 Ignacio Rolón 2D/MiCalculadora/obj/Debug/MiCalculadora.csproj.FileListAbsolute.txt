@@ -1,0 +1,13 @@
+C:\Users\ignir\Desktop\Escritorio\Ejercicios Labo\tp_laboratorio_2\Recuperatorio TP1 Ignacio Rolón 2D\MiCalculadora\bin\Debug\MiCalculadora.exe.config
+C:\Users\ignir\Desktop\Escritorio\Ejercicios Labo\tp_laboratorio_2\Recuperatorio TP1 Ignacio Rolón 2D\MiCalculadora\bin\Debug\MiCalculadora.exe
+C:\Users\ignir\Desktop\Escritorio\Ejercicios Labo\tp_laboratorio_2\Recuperatorio TP1 Ignacio Rolón 2D\MiCalculadora\bin\Debug\MiCalculadora.pdb
+C:\Users\ignir\Desktop\Escritorio\Ejercicios Labo\tp_laboratorio_2\Recuperatorio TP1 Ignacio Rolón 2D\MiCalculadora\obj\Debug\MiCalculadora.csprojAssemblyReference.cache
+C:\Users\ignir\Desktop\Escritorio\Ejercicios Labo\tp_laboratorio_2\Recuperatorio TP1 Ignacio Rolón 2D\MiCalculadora\obj\Debug\MiCalculadora.FormCalculadora.resources
+C:\Users\ignir\Desktop\Escritorio\Ejercicios Labo\tp_laboratorio_2\Recuperatorio TP1 Ignacio Rolón 2D\MiCalculadora\obj\Debug\MiCalculadora.Properties.Resources.resources
+C:\Users\ignir\Desktop\Escritorio\Ejercicios Labo\tp_laboratorio_2\Recuperatorio TP1 Ignacio Rolón 2D\MiCalculadora\obj\Debug\MiCalculadora.csproj.GenerateResource.cache
+C:\Users\ignir\Desktop\Escritorio\Ejercicios Labo\tp_laboratorio_2\Recuperatorio TP1 Ignacio Rolón 2D\MiCalculadora\obj\Debug\MiCalculadora.csproj.CoreCompileInputs.cache
+C:\Users\ignir\Desktop\Escritorio\Ejercicios Labo\tp_laboratorio_2\Recuperatorio TP1 Ignacio Rolón 2D\MiCalculadora\obj\Debug\MiCalculadora.exe
+C:\Users\ignir\Desktop\Escritorio\Ejercicios Labo\tp_laboratorio_2\Recuperatorio TP1 Ignacio Rolón 2D\MiCalculadora\obj\Debug\MiCalculadora.pdb
+C:\Users\ignir\Desktop\Escritorio\Ejercicios Labo\tp_laboratorio_2\Recuperatorio TP1 Ignacio Rolón 2D\MiCalculadora\bin\Debug\Entidades.dll
+C:\Users\ignir\Desktop\Escritorio\Ejercicios Labo\tp_laboratorio_2\Recuperatorio TP1 Ignacio Rolón 2D\MiCalculadora\bin\Debug\Entidades.pdb
+C:\Users\ignir\Desktop\Escritorio\Ejercicios Labo\tp_laboratorio_2\Recuperatorio TP1 Ignacio Rolón 2D\MiCalculadora\obj\Debug\MiCalculadora.csproj.CopyComplete

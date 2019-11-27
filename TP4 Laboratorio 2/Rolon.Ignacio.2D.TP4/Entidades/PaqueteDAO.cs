@@ -16,7 +16,9 @@ namespace Entidades
         private static SqlCommand comando;
         private static SqlConnection conexion;
 
-
+        /// <summary>
+        /// Inicializa las variables para utilizarse en los metodos, con el comando y el connection string.
+        /// </summary>
         static PaqueteDAO()
         {
             conexion = new SqlConnection(@"Data Source=localhost\SQLEXPRESS;Initial Catalog=correo-sp-2017;Integrated Security=True");

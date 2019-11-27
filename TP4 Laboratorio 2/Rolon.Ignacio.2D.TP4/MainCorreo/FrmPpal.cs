@@ -45,6 +45,11 @@ namespace MainCorreo
 
         }
 
+        /// <summary>
+        /// Manejador para el evento InformaEstado de Paquete.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void paq_InformaEstado(object sender, EventArgs e)
         {
             if (this.InvokeRequired)
@@ -57,6 +62,11 @@ namespace MainCorreo
             }
         }
 
+        /// <summary>
+        /// Muestra la información del objeto.
+        /// </summary>
+        /// <typeparam name="T">Tipo de objeto.</typeparam>
+        /// <param name="elemento">Objeto a mostrar.</param>
         private void MostrarInformacion<T>(IMostrar<T> elemento) where T : class
         {
             if(elemento != null)
@@ -67,6 +77,9 @@ namespace MainCorreo
             }
         }
 
+        /// <summary>
+        /// Actualiza los estados de los correos.
+        /// </summary>
         private void ActualizarEstados()
         {
             foreach(Control control in grpEstados.Controls)
