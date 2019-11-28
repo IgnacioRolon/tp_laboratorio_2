@@ -4,3 +4,9 @@ C:\Users\ignir\Desktop\Escritorio\Ejercicios Labo\tp_laboratorio_2\Recuperatorio
 C:\Users\ignir\Desktop\Escritorio\Ejercicios Labo\tp_laboratorio_2\Recuperatorio TP1 Ignacio Rolón 2D\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
 C:\Users\ignir\Desktop\Escritorio\Ejercicios Labo\tp_laboratorio_2\Recuperatorio TP1 Ignacio Rolón 2D\Entidades\obj\Debug\Entidades.dll
 C:\Users\ignir\Desktop\Escritorio\Ejercicios Labo\tp_laboratorio_2\Recuperatorio TP1 Ignacio Rolón 2D\Entidades\obj\Debug\Entidades.pdb
+C:\Users\ignacio.a.rolon\Downloads\PortableGit\tp_laboratorio_2\Recuperatorio TP1 Ignacio Rolón 2D\Entidades\bin\Debug\Entidades.dll
+C:\Users\ignacio.a.rolon\Downloads\PortableGit\tp_laboratorio_2\Recuperatorio TP1 Ignacio Rolón 2D\Entidades\bin\Debug\Entidades.pdb
+C:\Users\ignacio.a.rolon\Downloads\PortableGit\tp_laboratorio_2\Recuperatorio TP1 Ignacio Rolón 2D\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\ignacio.a.rolon\Downloads\PortableGit\tp_laboratorio_2\Recuperatorio TP1 Ignacio Rolón 2D\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\ignacio.a.rolon\Downloads\PortableGit\tp_laboratorio_2\Recuperatorio TP1 Ignacio Rolón 2D\Entidades\obj\Debug\Entidades.dll
+C:\Users\ignacio.a.rolon\Downloads\PortableGit\tp_laboratorio_2\Recuperatorio TP1 Ignacio Rolón 2D\Entidades\obj\Debug\Entidades.pdb
